@@ -1,2 +1,2 @@
 # NumberDrawer
-![image](https://user-images.githubusercontent.com/100019943/193427516-be40cb1e-a604-4e33-b1fe-a6629b855739.png)
+![image](https://user-images.githubusercontent.com/100019943/193427763-a7666ef4-ed45-4441-b3d2-1069cf1acc75.png)
