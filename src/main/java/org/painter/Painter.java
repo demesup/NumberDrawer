@@ -38,17 +38,16 @@ public class Painter {
     }
 
     public static void painter(String number) {
-        if (check(number)){
-            new Painter(number);
-        } else throw new RuntimeException("Cannot draw " + number);
+        check(number);
+        new Painter(number);
     }
 
-    public static boolean check(String number) {
+    private static void check(String number) {
         try {
             Integer.parseInt(number);
-            return true;
-        } catch (NumberFormatException e) {
-            return false;
+        }catch (NumberFormatException e){
+            throw new RuntimeException(number+" can not be drawn");
+
         }
     }
 }
